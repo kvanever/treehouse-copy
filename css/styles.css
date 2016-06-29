@@ -19,39 +19,89 @@ body, html  {
 }
 .nav {
   background-color: #edeff0;
-  overflow: auto;
+  overflow: hidden;
   padding-right: 1.5em;
+  height: 5.6em;
+  margin-bottom: 1.5em;
+  margin-left: 2%;
+  margin-right: 2%;
+  /*border-bottom: 3px solid #d8dde1;*/
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
 }
-.utility p {
+.utility {
+  margin-bottom: 2%;
+}
+.utility ul {
   margin: 1.5em;
+}
+.utility li {
+  display:inline-block;
+  list-style-type: none;
+}
+.utility li:nth-child(3) {
+  border-right: 2px solid #d8dde1;
+  padding-right: .3em;
+}
+.utility li:nth-child(4) {
+  border-right: 2px solid #d8dde1;
+  padding-right: .3em;
 }
 h1 {
   float: left;
-  margin-left: 1em;
+  margin-left: 1.3em;
+  margin-top: 3%;
+  font-size: 1.3em;
+  color: #343e46;
 }
 .utility {
   float: right;
   display: inline;
 }
 .header {
-  background-color: #009974;
-
+  overflow: hidden;
+}
+.header img {
+  margin-top: .5em;
+}
+.header img:first-child {
+  margin-left: .9em;
 }
 .header p {
   float:right;
+  color: white;
+  margin-right: 1em;
 }
 .card {
   float: left;
-  width: 40%;
-  margin-left: 4em;
-  border-radius: 25px;
+  width: 45%;
+  margin-left: 2em;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-bottom: 2em;
 }
 .card-body {
   background-color: white;
   overflow: auto;
+  padding-bottom: 2.5em;
+
 }
 .content {
   margin-left: 1.5em;
+}
+.content h2 {
+  font-size: 1em;
+  color: #7a8d91;
+  margin-top: 1.3em;
+  margin-bottom: .5em;
+}
+.content h3 {
+  font-size: 1.4em;
+  margin-top: .2em;
+}
+.content p {
+  font-size: 1em;
+  color: #7a8d91;
+  margin-bottom: 2.5em;
 }
 .categories {
   float: left;
@@ -61,14 +111,45 @@ h1 {
   display: inline;
   border: 2px solid #edeff0;
   border-radius: 30px;
-  padding: .8%;
+  padding: .5em;
+  color: #7a8d91;
+}
+
+li.java {
+  color: #009974;
+}
+div.java {
+  background-color: #009974;
+}
+
+li.python {
+  color: #ff8bb0;
+}
+div.python {
+  background-color: #ff8bb0;
+}
+
+li.wordpress {
+  color: #818bcc;
+}
+div.wordpress {
+  background-color: #818bcc;
+}
+
+.categories li:first-child {
+    margin-left: 1.5em;
+}
+.categories ul {
+  padding-left: 0;
 }
 .buttons {
   float:right;
+  margin-right: 1.5em;
 }
 .buttons img {
   border: 2px solid #edeff0;
   border-radius: 50%;
-  padding: 2px;
-  background-color: grey;
+  width: 2em;
+  padding: 7px;
+  /*background-color: #7a8d91;*/
 }
