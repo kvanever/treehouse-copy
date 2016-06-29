@@ -5,8 +5,70 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+            font-family: "Helvetica", Arial, sans-serif;
 }
+
 body, html  {
   margin: 0;
   padding: 0;
+}
+.container {
+  background-color: #edeff0;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+.nav {
+  background-color: #edeff0;
+  overflow: auto;
+  padding-right: 1.5em;
+}
+.utility p {
+  margin: 1.5em;
+}
+h1 {
+  float: left;
+  margin-left: 1em;
+}
+.utility {
+  float: right;
+  display: inline;
+}
+.header {
+  background-color: #009974;
+
+}
+.header p {
+  float:right;
+}
+.card {
+  float: left;
+  width: 40%;
+  margin-left: 4em;
+  border-radius: 25px;
+}
+.card-body {
+  background-color: white;
+  overflow: auto;
+}
+.content {
+  margin-left: 1.5em;
+}
+.categories {
+  float: left;
+  width: 60%;
+}
+.categories li {
+  display: inline;
+  border: 2px solid #edeff0;
+  border-radius: 30px;
+  padding: .8%;
+}
+.buttons {
+  float:right;
+}
+.buttons img {
+  border: 2px solid #edeff0;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: grey;
 }
